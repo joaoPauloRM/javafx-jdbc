@@ -76,6 +76,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 
 		Stage stage = (Stage) Main.getMainScene().getWindow();
 		tableViewDepartment.prefHeightProperty().bind(stage.heightProperty());
+
 	}
 
 	public void updateTableView() {
